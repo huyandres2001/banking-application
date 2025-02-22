@@ -26,7 +26,7 @@ public class SwaggerConfig {
             });
         });
         return new OpenAPI()
-                .info(new Info().title("Bank Account API hihi wecommit mai dinh kakakaka ip = " + address.get())
+                .info(new Info().title("Bank Account API ip = " + address.get())
                         .version("1.0")
                         .description("API to test CRUD Bank Account | Tech with Bansikah"));
     }
